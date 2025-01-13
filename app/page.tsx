@@ -1,12 +1,27 @@
-export default function Home() {
+import AboutMe from "@/components/Pages/OnePages/AboutMe";
+import Contact from "@/components/Pages/OnePages/Contact";
+import Hero from "@/components/Pages/OnePages/Hero";
+import RecentWork from "@/components/Pages/OnePages/RecentWork";
+import Services from "@/components/Pages/OnePages/Services";
+import Stories from "@/components/Pages/OnePages/Stories";
+import Testimonials from "@/components/Pages/OnePages/Testimonials";
+import Header from "@/components/Shared/Header";
+import MobileMenu from "@/components/Shared/MobileMenu";
+// import SmoothScroll from "@/components/Shared/SmoothScroll";
+
+export default function page() {
   return (
-    <section className="w-full h-screen relative">
-      <iframe
-        src="https://my.spline.design/glassmorphlandingpage-29f4cb3ad141a28876807497516a68d5/"
-        className="w-full h-full absolute inset-0"
-        frameBorder="0"
-        title="Spline Design"
-      />
-    </section>
+    <>
+        {/* <SmoothScroll /> */}
+        <Header />
+        <MobileMenu />
+        <Hero />
+        <Services />
+        <RecentWork />
+        <Testimonials />
+        <Stories />
+        <AboutMe />
+        <Contact />
+    </>
   );
 }
