@@ -50,11 +50,10 @@ export default function Hero() {
             <div className="hero-content wow fadeInUp text-center delay-0-2s">
               <Image className="profile-img" src={me} alt="Profile" />
               <h2>
-                Freelance <br /> Brand Designer
+              Turn Your Ideas to Real Online Business <br />with AWS
               </h2>
               <p>
-                Hi, I’m Walker, a passionate UX Designer dedicated to creating
-                user-friendly digital experiences.
+              "Leave the coding and deployment to us—focus on growing your business."
               </p>
               <Link className="theme-btn" href="#contact">
                 Get In touch
