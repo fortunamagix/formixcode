@@ -63,6 +63,22 @@ Version      : 1.0
     text-shadow: 0 4px 8px rgba(0, 255, 0, 0.3);
     transform: scale(1.02);
   }
+  
+  .ideas-gradient-text {
+    background: var(--ideas-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 255, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  .ideas-gradient-text:hover {
+    text-shadow: 0 4px 8px rgba(0, 255, 0, 0.3);
+    transform: scale(1.02);
+  }
 }
 ```
 
@@ -1425,13 +1441,13 @@ html {
 .main-hero-area {
   padding-top: 300px;
   padding-bottom: 100px;
-  background: url(../images/custom/hero-bg.jpg) no-repeat;
+  background: url(/images/custom/hero-bg.jpg) no-repeat;
   background-position: top center;
   background-size: 100% auto;
 }
 
 .main-hero-image-area {
-  background: url(../images/hero-image.jpg) no-repeat;
+  background: url(/images/hero-image.jpg) no-repeat;
   background-size: cover;
   z-index: 1;
   position: relative;
@@ -1837,7 +1853,7 @@ h2.about-pre-title {
 */
 .services-area {
   padding-bottom: 100px;
-  background: url(../images/custom/section-bg-gradient-2.jpg) no-repeat;
+  background: url(/images/custom/section-bg-gradient-2.jpg) no-repeat;
   background-position: right center;
 }
 
@@ -3067,7 +3083,7 @@ body.loaded {
 */
 .blog-area {
   padding: 100px 0px;
-  background: url(../images/custom/section-bg-gradient-1.jpg) no-repeat;
+  background: url(/images/custom/section-bg-gradient-1.jpg) no-repeat;
   background-position: left center;
   background-size: auto 100%;
 }
