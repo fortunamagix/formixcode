@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { gsap } from "gsap";
 
 export default function NavItem() {
   return (
@@ -6,7 +7,21 @@ export default function NavItem() {
       <nav id="mobile-menu">
         <ul className="onepage">
           <li>
-            <Link href="/" className="">
+            <Link 
+              href="/" 
+              className=""
+              onClick={(e) => {
+                e.preventDefault();
+                gsap.to(window, {
+                  duration: 1,
+                  scrollTo: { y: 0, autoKill: false },
+                  ease: "power2.inOut",
+                  onComplete: () => {
+                    window.history.pushState({}, '', '/');
+                  }
+                });
+              }}
+            >
               Home
             </Link>
           </li>

@@ -33,11 +33,12 @@ export default function HeaderTwo() {
       gsap.to(window, {
         duration: 1,
         scrollTo: { y: 0, autoKill: false },
-        ease: "power2.inOut"
+        ease: "power2.inOut",
+        onComplete: () => {
+          // Update URL after scroll completes
+          window.history.pushState({}, '', href);
+        }
       });
-      
-      // Update URL without reload
-      window.history.pushState({}, '', href);
     }
   }, []);
 
