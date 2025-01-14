@@ -548,6 +548,8 @@ html {
 
 .theme-btn:hover {
   transform: scale(1.1);
+  color: white !important;
+  text-shadow: 0 0 4px white !important;
 }
 
 .theme-btn:active {
