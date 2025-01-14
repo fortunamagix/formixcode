@@ -56,6 +56,13 @@ export default function Hero() {
               "Leave the coding and deployment to us—focus on growing your business."
               </p>
               <Link className="theme-btn" href="#contact">
+                <div id="container-stars">
+                  <div id="stars"></div>
+                </div>
+                <div id="glow">
+                  <div className="circle"></div>
+                  <div className="circle"></div>
+                </div>
                 Get In touch
               </Link>
             </div>
