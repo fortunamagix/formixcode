@@ -2,8 +2,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/public/images/logo.png";
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { CaretDown } from "@phosphor-icons/react";
+import { gsap } from "gsap";
 
 
 export default function HeaderTwo() {
@@ -23,6 +24,19 @@ export default function HeaderTwo() {
     };
   }, []);
 
+
+  const handleLinkClick = useCallback((e: React.MouseEvent<HTMLAnchorElement>) => {
+    const href = e.currentTarget.getAttribute('href');
+    
+    if (href === '/') {
+      e.preventDefault();
+      gsap.to(window, {
+        duration: 1,
+        scrollTo: { y: 0, autoKill: false },
+        ease: "power2.inOut"
+      });
+    }
+  }, []);
 
   return (
     <header className={`main-header ${isFixed ? 'fixed-header' : ''}`}>

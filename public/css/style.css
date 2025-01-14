@@ -340,7 +340,7 @@ input[type="radio"] {
 }
 
 html {
-  scroll-behavior: unset !important;
+  scroll-behavior: smooth;
 }
 
 /*
