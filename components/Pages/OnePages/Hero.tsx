@@ -49,7 +49,7 @@ export default function Hero() {
             {/* <!-- START HERO DESIGN AREA --> */}
             <div className="hero-content wow fadeInUp text-center delay-0-2s">
               <Image className="profile-img" src={me} alt="Profile" />
-              <h2>
+              <h2 className="aws-gradient-text">
               Turn Your Ideas to Real Online Business <br />with AWS
               </h2>
               <p>
