@@ -44,6 +44,7 @@ export default function Header() {
                           }
                         });
                       }}
+                      className="aws-gradient-text"
                     >
                       <Image className="logo-img" src={Logo} alt="" />
                     </Link>
