@@ -28,13 +28,16 @@ export default function HeaderTwo() {
   const handleLinkClick = useCallback((e: React.MouseEvent<HTMLAnchorElement>) => {
     const href = e.currentTarget.getAttribute('href');
     
-    if (href === '/') {
+    if (href === '/' || href === '/hometwo') {
       e.preventDefault();
       gsap.to(window, {
         duration: 1,
         scrollTo: { y: 0, autoKill: false },
         ease: "power2.inOut"
       });
+      
+      // Update URL without reload
+      window.history.pushState({}, '', href);
     }
   }, []);
 
