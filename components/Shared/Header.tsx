@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/public/images/logo.png";
 import React, { useEffect, useState } from "react";
+import { gsap } from "gsap";
 import NavItem from "./NavItem";
 
 export default function Header() {
@@ -30,7 +31,20 @@ export default function Header() {
               <div className="col-xl-2 col-lg-2 col-md-2 col-6 col-sm-3">
                 <div className="logo-area">
                   <div className="logo">
-                    <Link href="/">
+                    <Link 
+                      href="/"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        gsap.to(window, {
+                          duration: 1,
+                          scrollTo: { y: 0, autoKill: false },
+                          ease: "power2.inOut",
+                          onComplete: () => {
+                            window.history.pushState({}, '', '/');
+                          }
+                        });
+                      }}
+                    >
                       <Image className="logo-img" src={Logo} alt="" />
                     </Link>
                   </div>
