@@ -30,7 +30,7 @@ export default function Header() {
               <div className="col-xl-2 col-lg-2 col-md-2 col-6 col-sm-3">
                 <div className="logo-area">
                   <div className="logo">
-                    <Link href="/hometwo">
+                    <Link href="/">
                       <Image className="logo-img" src={Logo} alt="" />
                     </Link>
                   </div>

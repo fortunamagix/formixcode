@@ -6,7 +6,7 @@ export default function NavItem() {
       <nav id="mobile-menu">
         <ul className="onepage">
           <li>
-            <Link href="/hometwo" className="">
+            <Link href="/" className="">
               Home
             </Link>
           </li>
