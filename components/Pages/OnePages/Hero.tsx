@@ -53,7 +53,7 @@ export default function Hero() {
               Turn Your <span className="ideas-gradient-text">Ideas</span> to Real Online Business <br /><span className="aws-gradient-text">with AWS</span>
               </h2>
               <p>
-              "Leave the coding and deployment to us—focus on growing your business."
+              Leave the coding and deployment to us—focus on growing your business.
               </p>
               <Link className="theme-btn" href="#contact">
                 <div id="container-stars">

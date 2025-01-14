@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
@@ -29,8 +30,6 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-modal-video": "^1.2.3",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.3",
     "typescript": "^5"
   }
 }
