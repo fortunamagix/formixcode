@@ -3924,8 +3924,14 @@ ul.blog_pagination li a:hover {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   text-fill-color: transparent;
-  font-size: 1.2rem; /* Responsive font size */
+  font-size: 3.6rem; /* 3 times bigger */
   word-wrap: break-word; /* Ensure long text wraps */
   text-align: center;
   display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .gradient-email {
+    font-size: 1.8rem; /* Adjust for mobile responsiveness */
+  }
 }
