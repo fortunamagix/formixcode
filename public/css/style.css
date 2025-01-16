@@ -2646,7 +2646,7 @@ ul.extra-skills li i {
 .contact-area {
   padding-top: 100px;
   padding-bottom: 100px;
-  background: url(../images/custom/section-bg-gradient-2.jpg) no-repeat;
+  /* background: url(../images/custom/section-bg-gradient-2.jpg) no-repeat; */
   background-position: right center;
 }
 
