@@ -90,22 +90,6 @@ public\css\style.css
   transform: scale(1.02);
 }
 
-.aws-gradient-text {
-  background: var(--aws-gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-  font-weight: 600;
-  text-shadow: 0 2px 4px rgba(255, 153, 0, 0.2);
-  transition: all 0.3s ease;
-}
-
-.aws-gradient-text:hover {
-  text-shadow: 0 4px 8px rgba(255, 153, 0, 0.3);
-  transform: scale(1.02);
-}
-
 * {
   margin: 0;
   padding: 0;
