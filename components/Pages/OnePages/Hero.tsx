@@ -2,6 +2,7 @@
 import Image from "next/image";
 import me from "@/public/images/about/me.jpg";
 import React, { useEffect } from "react";
+import styles from "@/styles/OrangeGradient.module.css";
 import partner1 from "@/public/images/client-logos/partner1.png";
 import partner2 from "@/public/images/client-logos/partner2.png";
 import partner3 from "@/public/images/client-logos/partner3.png";
@@ -50,7 +51,7 @@ export default function Hero() {
             <div className="hero-content wow fadeInUp text-center delay-0-2s">
               <Image className="profile-img" src={me} alt="Profile" />
               <h2>
-              Turn Your <span className="ideas-gradient-text">Ideas</span> to Real Online Business <br /><span className="with-aws-gradient-text">with AWS</span>
+              Turn Your <span className="ideas-gradient-text">Ideas</span> to Real Online Business <br /><span className={styles.awsOrangeGradient}>with AWS</span>
               </h2>
               <p>
               Leave the coding and deployment to us—focus on growing your business.
