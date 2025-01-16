@@ -46,6 +46,7 @@ Version      : 1.0
   --text-font: "Inter", sans-serif;
   --title-font: "Inter", sans-serif;
   --aws-gradient: linear-gradient(90deg, #FF9900 0%, #FF6B00 50%, #FF3D00 100%);
+  --aws-gradient-fallback: #FF9900;
   --ideas-gradient: linear-gradient(90deg, #00FF00 0%, #00CC00 50%, #009900 100%);
   
   .ideas-gradient-text {
@@ -86,10 +87,13 @@ public\css\style.css
 ```css
 <<<<<<< SEARCH
 .aws-gradient-text {
+  color: var(--aws-gradient-fallback);
   background: var(--aws-gradient);
   -webkit-background-clip: text;
+  -moz-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
   display: inline-block;
   font-weight: 600;
   text-shadow: 0 2px 4px rgba(255, 153, 0, 0.2);
