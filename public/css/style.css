@@ -3878,16 +3878,25 @@ ul.blog_pagination li a:hover {
     font-size: 1.8rem; /* Adjust for mobile responsiveness */
   }
 }
-.get-in-touch-btn:hover {
-  z-index: 10;
-  color: #ffffff !important;
+.get-in-touch-btn {
   position: relative;
+  z-index: 1;
+}
+
+.get-in-touch-btn:hover {
+  z-index: 2;
+  color: #ffffff !important;
+}
+
+.get-in-touch-btn span {
+  position: relative;
+  z-index: 3;
+}
+
+.get-in-touch-btn #container-stars {
+  z-index: 1;
 }
 
 .get-in-touch-btn:hover #container-stars {
-  z-index: -1; /* Move stars behind text */
-}
-
-.get-in-touch-btn:hover #container-stars {
-  z-index: -1; /* Move stars behind text */
+  z-index: 1;
 }
