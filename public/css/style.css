@@ -553,8 +553,8 @@ html {
 
 .theme-btn:hover {
   transform: scale(1.1);
-  color: white !important;
-  text-shadow: 0 0 4px white !important;
+  color: #ffffff !important; /* Ensure text is white */
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.8) !important; /* Subtle shadow for readability */
 }
 
 .theme-btn:active {
