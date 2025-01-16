@@ -87,17 +87,18 @@ public\css\style.css
 ```css
 <<<<<<< SEARCH
 .aws-gradient-text {
-  color: var(--aws-gradient-fallback);
-  background: var(--aws-gradient);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  color: var(--aws-gradient-fallback); /* Fallback solid color */
+  background: var(--aws-gradient); /* Gradient background */
+  -webkit-background-clip: text; /* Webkit-specific clip */
+  -moz-background-clip: text; /* Mozilla-specific clip */
+  background-clip: text; /* Standard clip */
+  -webkit-text-fill-color: transparent; /* Webkit-specific text fill */
+  -moz-text-fill-color: transparent; /* Mozilla-specific text fill */
+  text-fill-color: transparent; /* Standard text fill */
   display: inline-block;
   font-weight: 600;
-  text-shadow: 0 2px 4px rgba(255, 153, 0, 0.2);
-  transition: all 0.3s ease;
+  text-shadow: 0 2px 4px rgba(255, 153, 0, 0.2); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth transition */
 }
 
 .aws-gradient-text:hover {
