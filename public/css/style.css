@@ -3909,3 +3909,9 @@ ul.blog_pagination li a:hover {
   color: var(--primary-color);
   margin-bottom: 30px;
 }
+.center-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
