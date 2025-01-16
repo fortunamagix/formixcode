@@ -48,38 +48,22 @@ Version      : 1.0
   --aws-gradient: linear-gradient(90deg, #FF9900 0%, #FF6B00 50%, #FF3D00 100%);
   --aws-gradient-fallback: #FF9900;
   --ideas-gradient: linear-gradient(90deg, #00FF00 0%, #00CC00 50%, #009900 100%);
-  
-  .ideas-gradient-text {
-    background: var(--ideas-gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-    font-weight: 600;
-    text-shadow: 0 2px 4px rgba(0, 255, 0, 0.2);
-    transition: all 0.3s ease;
-  }
+}
 
-  .ideas-gradient-text:hover {
-    text-shadow: 0 4px 8px rgba(0, 255, 0, 0.3);
-    transform: scale(1.02);
-  }
-  
-  .ideas-gradient-text {
-    background: var(--ideas-gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-    font-weight: 600;
-    text-shadow: 0 2px 4px rgba(0, 255, 0, 0.2);
-    transition: all 0.3s ease;
-  }
+.ideas-gradient-text {
+  background: var(--ideas-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: 600;
+  text-shadow: 0 2px 4px rgba(0, 255, 0, 0.2);
+  transition: all 0.3s ease;
+}
 
-  .ideas-gradient-text:hover {
-    text-shadow: 0 4px 8px rgba(0, 255, 0, 0.3);
-    transform: scale(1.02);
-  }
+.ideas-gradient-text:hover {
+  text-shadow: 0 4px 8px rgba(0, 255, 0, 0.3);
+  transform: scale(1.02);
 }
 ```
 
@@ -507,8 +491,8 @@ html {
     );
   background-origin: border-box;
   background-clip: content-box, border-box;
-  color: #ffffff;
-  text-shadow: 0 0 4px white;
+  color: #ffffff !important;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
   font-weight: 500;
   text-transform: uppercase;
 }
