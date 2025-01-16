@@ -1,0 +1,15 @@
+.awsOrangeGradient {
+  background: linear-gradient(90deg, #FF9900 0%, #FF6B00 50%, #FF4500 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: 600;
+  text-shadow: 0 2px 4px rgba(255, 153, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.awsOrangeGradient:hover {
+  text-shadow: 0 4px 8px rgba(255, 107, 0, 0.3);
+  transform: scale(1.02);
+}
