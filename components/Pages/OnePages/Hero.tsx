@@ -54,8 +54,6 @@ export default function Hero() {
               </h2>
               <p>
               Leave the coding and deployment to us—focus on growing your business.
-              <br />
-              <span className="gradient-email">contact@formixcode.com</span>
               </p>
               <div className="center-button-container">
                 <Link className="theme-btn" href="#contact">
