@@ -3915,3 +3915,17 @@ ul.blog_pagination li a:hover {
   justify-content: center; /* Center horizontally */
   margin-top: 20px; /* Add spacing if needed */
 }
+
+.gradient-email {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-size: 1.2rem; /* Responsive font size */
+  word-wrap: break-word; /* Ensure long text wraps */
+  text-align: center;
+  display: inline-block;
+}
