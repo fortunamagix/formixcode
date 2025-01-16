@@ -3887,3 +3887,7 @@ ul.blog_pagination li a:hover {
 .get-in-touch-btn:hover #container-stars {
   z-index: -1; /* Move stars behind text */
 }
+
+.get-in-touch-btn:hover #container-stars {
+  z-index: -1; /* Move stars behind text */
+}
