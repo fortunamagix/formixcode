@@ -9,7 +9,9 @@ export default function Footer() {
             <div className="footer-top">
               <p>Make your project live and profitable</p>
               <h2>
-                <Link href="mailto:contact@formixcode.com">contact@formixcode.com</Link>
+                <Link href="mailto:contact@formixcode.com">
+                  <span className="gradient-email">contact@formixcode.com</span>
+                </Link>
               </h2>
             </div>
           </div>
