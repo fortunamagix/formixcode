@@ -3919,3 +3919,6 @@ ul.blog_pagination li a:hover {
     font-size: 1.8rem; /* Adjust for mobile responsiveness */
   }
 }
+.get-in-touch-btn {
+  color: #ffffff; /* Change this to a contrasting color */
+}
