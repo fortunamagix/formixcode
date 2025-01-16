@@ -3879,6 +3879,7 @@ ul.blog_pagination li a:hover {
   }
 }
 .get-in-touch-btn:hover {
-  z-index: -10;
-  color: #ffffff !important; /* Change this to a contrasting color */
+  z-index: 10;
+  color: #ffffff !important;
+  position: relative;
 }
