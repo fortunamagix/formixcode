@@ -3911,7 +3911,5 @@ ul.blog_pagination li a:hover {
 }
 .center-button-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Full viewport height */
+  justify-content: center; /* Center horizontally */
 }
