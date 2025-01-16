@@ -64,7 +64,9 @@ export default function Hero() {
                     <div className="circle"></div>
                     <div className="circle"></div>
                   </div>
+                  <div className="get-in-touch-btn">  
                   Get In touch
+                  </div>
                 </Link>
               </div>
             </div>
