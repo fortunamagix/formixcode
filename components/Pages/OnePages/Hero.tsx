@@ -55,7 +55,7 @@ export default function Hero() {
               </h2>
 {/* still working on the quote */}
 
-              <div className="flex inline-block text-center">
+              <div className="flex inline-block text-center mt-4">
                 <Image src="/images/hero-quote-open.svg"
                   alt="Open quote" 
                   width={10} 
@@ -63,13 +63,14 @@ export default function Hero() {
 
 
                 />
-                <p className="text-gray-800">
+                <p className="text-gray-800 mt-4">
                   Leave the coding and deployment to us—focus on growing your business.
                 </p>
                 <Image src="/images/hero-quote-close.svg"
                   alt="Close quote" 
                   width={10} 
-                  height={10} 
+                  height={10}
+                  className="" 
                 />
               </div>
 {/* end of the quote */}
