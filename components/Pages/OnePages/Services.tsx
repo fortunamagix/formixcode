@@ -20,9 +20,7 @@ export default function Services() {
               <h5>01</h5>
               <h4>Brand Identity Design</h4>
               <p>
-                Blend of strategic thinking and creative flair to craft a
-                digital identity that resonates and captivates.kits you need to
-                create a true website within minutes.
+              Crafting unique digital identities <br />that captivate and resonate<br /> with your audience.
               </p>
             </div>
           </div>
@@ -32,10 +30,9 @@ export default function Services() {
             <div className="service-item wow fadeInUp delay-0-4s">
               <ArrowUpRight className="icopos" />
               <h5>02</h5>
-              <h4>Visual Design</h4>
+              <h4>UI/UX Design</h4>
               <p>
-                Blend of artistic intuition with strategic insight to craft a
-                visual identity.
+              Delivering seamless, intuitive, and delightful user experiences for web and mobile platforms.
               </p>
             </div>
           </div>
@@ -45,10 +42,9 @@ export default function Services() {
             <div className="service-item wow fadeInUp delay-0-6s">
               <ArrowUpRight className="icopos" />
               <h5>03</h5>
-              <h4>UX Research</h4>
+              <h4>Consultation & Deployment</h4>
               <p>
-                Blend of functionality with aesthetics to create delightful
-                experience.
+              From strategy to deployment, we provide tailored consultations and scalable solutions.
               </p>
             </div>
           </div>
@@ -58,11 +54,9 @@ export default function Services() {
             <div className="service-item wow fadeInUp delay-0-8s">
               <ArrowUpRight className="icopos" />
               <h5>04</h5>
-              <h4>Art Direction</h4>
+              <h4>Afterservice and<br />Monthly Support</h4>
               <p>
-                Blend of strategic thinking and creative flair to craft a
-                digital identity that resonates and captivates.kits you need to
-                create a true website within minutes.
+              Ongoing monthly services to ensure your projects<br/> stay optimized and up-to-date.
               </p>
             </div>
           </div>
