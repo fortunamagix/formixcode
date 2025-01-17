@@ -51,26 +51,28 @@ export default function Hero() {
             <div className="hero-content wow fadeInUp text-center delay-0-2s">
               <Image className="profile-img" src={me} alt="Profile" />
               <h2>
-              Turn Your <span className="ideas-gradient-text">Ideas</span> to Real Online Business <br /><span className={styles.awsOrangeGradient}>with AWS</span>
+              Turn Your <span className="ideas-gradient-text">Ideas</span>to Business <br /><span className={styles.awsOrangeGradient}>with AWS</span>
               </h2>
-              <div className="flex items-center gap-2">
-                <img 
-                  src="/images/hero-quote-open.svg" 
+{/* still working on the quote */}
+
+              <div className="flex inline-block text-center">
+                <Image src="/images/hero-quote-open.svg"
                   alt="Open quote" 
-                  className="w-[18px] h-[18px]"
+                  width={10} 
+                  height={10}
+
+
                 />
                 <p className="text-gray-800">
                   Leave the coding and deployment to us—focus on growing your business.
                 </p>
-                <img 
-                  src="/images/hero-quote-close.svg" 
+                <Image src="/images/hero-quote-close.svg"
                   alt="Close quote" 
-                  className="w-[18px] h-[18px]"
+                  width={10} 
+                  height={10} 
                 />
               </div>
-              {/* <p>
-              Leave the coding and deployment to us—focus on growing your business.
-              </p> */}
+{/* end of the quote */}
               <div className="center-button-container">
                 <Link className="theme-btn" href="#contact">
                   <div id="container-stars">
