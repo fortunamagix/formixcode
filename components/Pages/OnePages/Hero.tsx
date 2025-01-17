@@ -56,7 +56,7 @@ export default function Hero() {
               <div className="flex items-center gap-2">
       <div className="flex items-center gap-2">
         <img 
-          src="/images/icons/hero-quote-open.svg" 
+          src="/images/hero-quote-open.svg" 
           alt="Open quote" 
           className="w-6 h-6"
         />
@@ -64,7 +64,7 @@ export default function Hero() {
           Leave the coding and deployment to us—focus on growing your business.
         </p>
         <img 
-          src="/images/icons/hero-quote-close.svg" 
+          src="/images/hero-quote-close.svg" 
           alt="Close quote" 
           className="w-6 h-6"
         />
