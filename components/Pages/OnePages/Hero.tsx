@@ -3,13 +3,13 @@ import Image from "next/image";
 import me from "@/public/images/about/me.jpg";
 import React, { useEffect } from "react";
 import styles from "@/styles/OrangeGradient.module.css";
-import partner1 from "@/public/images/client-logos/partner1.png";
-import partner2 from "@/public/images/client-logos/partner2.png";
-import partner3 from "@/public/images/client-logos/partner3.png";
-import partner4 from "@/public/images/client-logos/partner4.png";
-import partner5 from "@/public/images/client-logos/partner5.png";
-import partner6 from "@/public/images/client-logos/partner6.png";
-import partner7 from "@/public/images/client-logos/partner7.png";
+import partner1 from "@/public/images/hero-partner-icons/aws-svgrepo-com.svg";
+import partner2 from "@/public/images/hero-partner-icons/docker-svgrepo-com.svg";
+import partner3 from "@/public/images/hero-partner-icons/nextjs-2.svg";
+import partner4 from "@/public/images/hero-partner-icons/shopify-logo-svgrepo-com.svg";
+import partner5 from "@/public/images/hero-partner-icons/spline.svg";
+import partner6 from "@/public/images/hero-partner-icons/vercel-2.svg";
+import partner7 from "@/public/images/hero-partner-icons/wordpress.svg";
 import Link from "next/link";
 
 export default function Hero() {
