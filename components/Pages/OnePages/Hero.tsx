@@ -54,11 +54,21 @@ export default function Hero() {
               Turn Your <span className="ideas-gradient-text">Ideas</span> to Real Online Business <br /><span className={styles.awsOrangeGradient}>with AWS</span>
               </h2>
               <div className="flex items-center gap-2">
-      <Image src="/images/icons/hero-quote-open.svg" alt="Icon" width={24} height={24} />
-      <p className="text-gray-800">
-        Leave the coding and deployment to us—focus on growing your business.
-      </p>
-      <Image src="/images/icons/hero-quote-close.svg" alt="Icon" width={24} height={24} />
+      <div className="flex items-center gap-2">
+        <img 
+          src="/images/icons/hero-quote-open.svg" 
+          alt="Open quote" 
+          className="w-6 h-6"
+        />
+        <p className="text-gray-800">
+          Leave the coding and deployment to us—focus on growing your business.
+        </p>
+        <img 
+          src="/images/icons/hero-quote-close.svg" 
+          alt="Close quote" 
+          className="w-6 h-6"
+        />
+      </div>
     </div>
               {/* <p>
               Leave the coding and deployment to us—focus on growing your business.
