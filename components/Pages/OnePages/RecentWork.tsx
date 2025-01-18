@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import work1 from "@/public/images/projects/webp_recent-01.webp";
-import work2 from "@/public/images/projects/work2.jpg";
-import work3 from "@/public/images/projects/work3.jpg";
-import work4 from "@/public/images/projects/work4.jpg";
+import work1 from "@/public/images/projects/webp_recent-01-reso.webp";
+import work2 from "@/public/images/projects/webp_recent-02-cappa.webp";
+import work3 from "@/public/images/projects/webp_recent-03-ecomus.webp";
+import work4 from "@/public/images/projects/webp_recent-04-modave.webp";
 import work5 from "@/public/images/projects/work5.jpg";
 import work6 from "@/public/images/projects/work6.jpg";
 
@@ -41,15 +41,15 @@ export default function RecentWork() {
           {/* <!-- // END SINGLE PORTFOLIO DESIGN AREA --> */}
           {/* <!-- START SINGLE PORTFOLIO DESIGN AREA --> */}
           <div className="col-md-6 col-xl-6 portfolio-item category-2">
-            <Link href="/singleproject">
+            <Link href="https://duruthemes.com/demo/html/cappa/" target="_blank" className="work-popup">
               <div className="portfolio-box">
                 {/* <!-- Image --> */}
                 <Image className="workimges" src={work2} alt="" data-rjs="2" />
                 {/* <!-- Category --> */}
-                <span className="portfolio-category">Mockup</span>
+                <span className="portfolio-category">luxury</span>
                 {/* <!-- Caption --> */}
                 <div className="portfolio-caption">
-                  <h1>A Branch with Flowers</h1>
+                  <h1>Cappa</h1>
                 </div>
               </div>
             </Link>
@@ -57,15 +57,15 @@ export default function RecentWork() {
           {/* <!-- // END SINGLE PORTFOLIO DESIGN AREA --> */}
           {/* <!-- START SINGLE PORTFOLIO DESIGN AREA --> */}
           <div className="col-md-6 col-xl-6 portfolio-item category-2">
-            <Link href="/singleproject" className="popup-youtube">
+            <Link href="https://ecomusnext-themesflat.vercel.app/home-multi-brand" target="_blank" className="popup-youtube">
               <div className="portfolio-box">
                 {/* <!-- Image --> */}
                 <Image className="workimges" src={work3} alt="" data-rjs="2" />
                 {/* <!-- Category --> */}
-                <span className="portfolio-category">Video</span>
+                <span className="portfolio-category">E-commerse</span>
                 {/* <!-- Caption --> */}
                 <div className="portfolio-caption">
-                  <h1>Orange Rose Flower</h1>
+                  <h1>Ecomus</h1>
                 </div>
               </div>
             </Link>
@@ -73,7 +73,7 @@ export default function RecentWork() {
           {/* <!-- // END SINGLE PORTFOLIO DESIGN AREA --> */}
           {/* <!-- START SINGLE PORTFOLIO DESIGN AREA --> */}
           <div className="col-md-6 col-xl-6 portfolio-item category-1">
-            <Link href="/singleproject" className="work-popup">
+            <Link href="https://modavenextjs.vercel.app/" className="work-popup" target="_blank">
               <div className="portfolio-box">
                 {/* <!-- Image --> */}
                 <Image className="workimges" src={work4} alt="" data-rjs="2" />
@@ -81,7 +81,7 @@ export default function RecentWork() {
                 <span className="portfolio-category">Branding</span>
                 {/* <!-- Caption --> */}
                 <div className="portfolio-caption">
-                  <h1>Green Plant on a Desk</h1>
+                  <h1>modave</h1>
                 </div>
               </div>
             </Link>

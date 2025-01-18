@@ -32,7 +32,7 @@ export default function NavItem() {
           </li>
           <li>
             <Link href="#projects" className="linkstyle">
-              Projects
+              custom
             </Link>
           </li>
           <li>
