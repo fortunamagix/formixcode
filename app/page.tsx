@@ -7,7 +7,7 @@ import Stories from "@/components/Pages/OnePages/Stories";
 import Testimonials from "@/components/Pages/OnePages/Testimonials";
 import Header from "@/components/Shared/Header";
 import MobileMenu from "@/components/Shared/MobileMenu";
-// import SmoothScroll from "@/components/Shared/SmoothScroll";
+import SmoothScroll from "@/components/Shared/SmoothScroll";
 
 export default function page() {
   return (
