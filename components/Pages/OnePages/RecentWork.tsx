@@ -4,8 +4,8 @@ import work1 from "@/public/images/projects/webp_recent-01-reso.webp";
 import work2 from "@/public/images/projects/webp_recent-02-cappa.webp";
 import work3 from "@/public/images/projects/webp_recent-03-ecomus.webp";
 import work4 from "@/public/images/projects/webp_recent-04-modave.webp";
-import work5 from "@/public/images/projects/work5.jpg";
-import work6 from "@/public/images/projects/work6.jpg";
+import work5 from "@/public/images/projects/webp_recent-05-almaris.webp";
+import work6 from "@/public/images/projects/webp_recent-06-homez.webp";
 
 export default function RecentWork() {
   return (
@@ -89,15 +89,15 @@ export default function RecentWork() {
           {/* <!-- // END SINGLE PORTFOLIO DESIGN AREA --> */}
           {/* <!-- START SINGLE PORTFOLIO DESIGN AREA --> */}
           <div className="col-md-6 col-xl-6 portfolio-item category-2">
-            <Link href="/singleproject" className="work-popup">
+            <Link href="https://madebydesignesia.com/themes/almaris/" className="work-popup" target="_blank">
               <div className="portfolio-box">
                 {/* <!-- Image --> */}
                 <Image className="workimges" src={work5} alt="" data-rjs="2" />
                 {/* <!-- Category --> */}
-                <span className="portfolio-category">Mockup</span>
+                <span className="portfolio-category">Hotel</span>
                 {/* <!-- Caption --> */}
                 <div className="portfolio-caption">
-                  <h1>Orange Rose Flower</h1>
+                  <h1>almaris</h1>
                 </div>
               </div>
             </Link>
@@ -105,15 +105,15 @@ export default function RecentWork() {
           {/* <!-- // END SINGLE PORTFOLIO DESIGN AREA --> */}
           {/* <!-- START SINGLE PORTFOLIO DESIGN AREA --> */}
           <div className="col-md-6 col-xl-6 portfolio-item category-2">
-            <Link href="/singleproject" className="work-popup">
+            <Link href="https://homez-app-preview.vercel.app/" className="work-popup" target="_blank">
               <div className="portfolio-box">
                 {/* <!-- Image --> */}
                 <Image className="workimges" src={work6} alt="" data-rjs="2" />
                 {/* <!-- Category --> */}
-                <span className="portfolio-category">logo</span>
+                <span className="portfolio-category">real estate</span>
                 {/* <!-- Caption --> */}
                 <div className="portfolio-caption">
-                  <h1>Rose Flower</h1>
+                  <h1>homez</h1>
                 </div>
               </div>
             </Link>
