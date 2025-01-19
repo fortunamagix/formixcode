@@ -162,7 +162,7 @@ return (
                     <span className="text-success h2">${calculateTotal().toLocaleString()}</span>
                   </div>
                 </div>
-                <p className="text-muted mb-0">*Hosting prices may vary depending on usage</p>
+                <p className="text-white-60 mb-0">*Hosting prices may vary depending on usage</p>
               </div>
             </div>
           </div>
