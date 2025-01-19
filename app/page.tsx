@@ -1,6 +1,7 @@
 import AboutMe from "@/components/Pages/OnePages/AboutMe";
 import Contact from "@/components/Pages/OnePages/Contact";
 import Hero from "@/components/Pages/OnePages/Hero";
+import PricingCalculator from "@/components/Pages/OnePages/PricingCalculator";
 import RecentWork from "@/components/Pages/OnePages/RecentWork";
 import Services from "@/components/Pages/OnePages/Services";
 import Stories from "@/components/Pages/OnePages/Stories";
@@ -19,6 +20,7 @@ export default function page() {
         <Services />
         <RecentWork />
         <Testimonials />
+        <PricingCalculator />
         <Stories />
         <AboutMe />
         <Contact />

@@ -11,10 +11,7 @@ import ScrollTopUp from "@/components/Shared/ScrollTopUp";
 import "@/../react-modal-video/scss/modal-video.scss";
 import SmoothScroll from "@/components/Shared/SmoothScroll";
 import SectionScroll from "@/components/Shared/SectionScroll";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
 
 
 export const metadata: Metadata = {
