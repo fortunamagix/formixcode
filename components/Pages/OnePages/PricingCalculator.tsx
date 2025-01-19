@@ -196,13 +196,13 @@ return (
         }
         .custom-radio:checked + label, .custom-checkbox:checked + label {
           background-color: #2c3340;
-          border: 1px solid rgb(241, 226, 18);
+          border: 1px solid rgb(239, 185, 8);
         }
         .bg-darker {
           background-color: #1a1f25;
         }
         .text-success {
-          color: #00ff9d !important;
+          color: rgb(255, 205, 40) !important;
         }
       `}</style>
     </section>
