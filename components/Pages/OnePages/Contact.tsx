@@ -1,6 +1,6 @@
 "use client";
 import Image from 'next/image'
-import me from '@/public/images/about/me.jpg'
+import me from '@/public/images/about/webp_why-choose-us.webp'
 import Link from 'next/link'
 import { EnvelopeSimple, FacebookLogo, GithubLogo, LinkedinLogo, User, XLogo } from '@phosphor-icons/react'
 

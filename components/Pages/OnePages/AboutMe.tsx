@@ -1,7 +1,7 @@
 "use client";
 import CountUp from "react-countup";
 import Image from "next/image";
-import me from "@/public/images/about/me.jpg";
+import me from "@/public/images/about/webp_why-choose-us.webp";
 
 export default function AboutMe() {
   return (
