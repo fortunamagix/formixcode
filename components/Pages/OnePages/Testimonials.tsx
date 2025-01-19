@@ -1,9 +1,9 @@
 import Image from "next/image";
-import author1 from "@/public/images/testimonials/author1.jpg";
-import author2 from "@/public/images/testimonials/author2.jpg";
-import author3 from "@/public/images/testimonials/author3.jpg";
-import author4 from "@/public/images/testimonials/author4.jpg";
-import author5 from "@/public/images/testimonials/author5.jpg";
+import author1 from "@/public/images/testimonials/webp_M.webp";
+import author2 from "@/public/images/testimonials/webp_C.webp";
+import author3 from "@/public/images/testimonials/webp_L.webp";
+import author4 from "@/public/images/testimonials/webp_H.webp";
+import author5 from "@/public/images/testimonials/webp_P.webp";
 
 export default function Testimonials() {
   return (
@@ -96,7 +96,7 @@ export default function Testimonials() {
                             <Image src={author5} alt="Author" />
                         </div>
                         <div className="testi-des">
-                            <h5>Henry Clark</h5>
+                            <h5>Peter Clark</h5>
                             {/* <span>Founder Oxyzen</span> */}
                         </div>
                     </div>
