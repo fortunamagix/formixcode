@@ -21,16 +21,15 @@ export default function Testimonials() {
                     {/* <!-- START SINGLE TESTIMONIALS DESIGN AREA --> */}
                     <div className="testimonial-item wow fadeInUp delay-0-2s">
                         <div className="text">
-                            Financial planners help people to knowledge in about how to
-                            invest and in save their moneye the most efficient way eve plan
-                            ners help people tioniio know ledige in about how.
+                        I couldn't be happier with the website delivered. The design is stunning,
+                         and the performance is outstanding. It's everything I wanted and more.
                         </div>
                         <div className="author">
                             <Image src={author1} alt="Author" />
                         </div>
                         <div className="testi-des">
-                            <h5>Zonathon Doe</h5>
-                            <span>CEO & Founder X</span>
+                            <h5>METHAIL DEV</h5>
+                            {/* <span>CEO & Founder X</span> */}
                         </div>
                     </div>
                     {/* <!-- / END SINGLE TESTIMONIALS DESIGN AREA --> */}
@@ -39,16 +38,15 @@ export default function Testimonials() {
                     {/* <!-- START SINGLE TESTIMONIALS DESIGN AREA --> */}
                     <div className="testimonial-item wow fadeInUp delay-0-4s">
                         <div className="text">
-                            Asian planners help people to knowledge in about how to
-                            invest and in save their moneye the most efficient way eve plan
-                            ners help people tioniio know ledige in about how.
+                        The website exceeded all my expectations! The design is sleek and professional, 
+                        and the performance is top-notch. It's been a game-changer for my business.
                         </div>
                         <div className="author">
                             <Image src={author2} alt="Author" />
                         </div>
                         <div className="testi-des">
-                            <h5>Martin Smith</h5>
-                            <span>CEO & Founder Google</span>
+                            <h5>CASSANDRA JAMES</h5>
+                            {/* <span>CEO & Founder Google</span> */}
                         </div>
                     </div>
                     {/* <!-- / END SINGLE TESTIMONIALS DESIGN AREA --> */}
@@ -57,16 +55,15 @@ export default function Testimonials() {
                     {/* <!-- START SINGLE TESTIMONIALS DESIGN AREA --> */}
                     <div className="testimonial-item wow fadeInUp delay-0-6s">
                         <div className="text">
-                            Hello planners help people to knowledge in about how to
-                            invest and in save their moneye the most efficient way eve plan
-                            ners help people tioniio know ledige in about how.
+                        This is by far the best website experience I've had. 
+                        The attention to detail in the design and the smooth performance are exceptional.
                         </div>
                         <div className="author">
                             <Image src={author3} alt="Author" />
                         </div>
                         <div className="testi-des">
-                            <h5>Methail Dev</h5>
-                            <span>Managing Director - Paydesk</span>
+                            <h5>LUCAS EVANS</h5>
+                            {/* <span>Managing Director - Paydesk</span> */}
                         </div>
                     </div>
                     {/* <!-- / END SINGLE TESTIMONIALS DESIGN AREA --> */}
@@ -75,16 +72,15 @@ export default function Testimonials() {
                     {/* <!-- START SINGLE TESTIMONIALS DESIGN AREA --> */}
                     <div className="testimonial-item wow fadeInUp delay-0-8s">
                         <div className="text">
-                            Financial planners help people to knowledge in about how to
-                            invest and in save their moneye the most efficient way eve plan
-                            ners help people tioniio know ledige in about how.
+                        The website is perfect! The design truly captures my brand, 
+                        and the performance is fast and seamless. I'm so impressed with the results.
                         </div>
                         <div className="author">
                             <Image src={author4} alt="Author" />
                         </div>
                         <div className="testi-des">
-                            <h5>Eliana tweet</h5>
-                            <span>CEO & Founder Tesla</span>
+                            <h5>HENRY CLOUD</h5>
+                            {/* <span>CEO & Founder Tesla</span> */}
                         </div>
                     </div>
                     {/* <!-- / END SINGLE TESTIMONIALS DESIGN AREA --> */}
@@ -93,16 +89,15 @@ export default function Testimonials() {
                     {/* <!-- START SINGLE TESTIMONIALS DESIGN AREA --> */}
                     <div className="testimonial-item wow fadeInUp delay-0-9s">
                         <div className="text">
-                            Yelp planners help people to knowledge in about how to
-                            invest and in save their moneye the most efficient way eve plan
-                            ners help people tioniio know ledige in about how.
+                        I absolutely love my new website! It's visually stunning, 
+                        incredibly fast, and exactly what I was looking for. Highly recommended!
                         </div>
                         <div className="author">
                             <Image src={author5} alt="Author" />
                         </div>
                         <div className="testi-des">
                             <h5>Henry Clark</h5>
-                            <span>Founder Oxyzen</span>
+                            {/* <span>Founder Oxyzen</span> */}
                         </div>
                     </div>
                     {/* <!-- / END SINGLE TESTIMONIALS DESIGN AREA --> */}
