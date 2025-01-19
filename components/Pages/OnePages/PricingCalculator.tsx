@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Image from 'next/image';
 
 interface WebsiteType {
   name: string;
@@ -11,51 +12,96 @@ interface HostingOption {
   price: number;
 }
 
+interface PricingData {
+  websiteTypes: WebsiteType[];
+  hostingOptions: HostingOption[];
+}
+
 export default function PricingCalculator() {
+  const [platform, setPlatform] = useState<'nextjs' | 'wordpress'>('nextjs');
   const [selectedType, setSelectedType] = useState<string>('Professional');
   const [selectedHosting, setSelectedHosting] = useState<string>('No hosting');
   const [include3D, setInclude3D] = useState<boolean>(false);
 
-  const websiteTypes: WebsiteType[] = [
-    { name: 'Professional', price: 2000 },
-    { name: 'E-commerce', price: 3000 },
-    { name: 'Real-estate', price: 2500 },
-    { name: 'No need website', price: 0 },
-  ];
-
-  const hostingOptions: HostingOption[] = [
-    { name: 'Vercel', price: 700 },
-    { name: 'Netlify', price: 600 },
-    { name: 'AWS', price: 800 },
-    { name: 'No hosting', price: 0 },
-  ];
-
-  const calculateTotal = () => {
-    const websitePrice = websiteTypes.find(type => type.name === selectedType)?.price || 0;
-    const hostingPrice = hostingOptions.find(option => option.name === selectedHosting)?.price || 0;
-    const threeDPrice = include3D ? 1000 : 0;
-    return websitePrice + hostingPrice + threeDPrice;
+  const pricingData: Record<'nextjs' | 'wordpress', PricingData> = {
+    nextjs: {
+      websiteTypes: [
+        { name: 'Professional', price: 2000 },
+        { name: 'E-commerce', price: 3000 },
+        { name: 'Real-estate', price: 2500 },
+        { name: 'No need website', price: 0 },
+      ],
+      hostingOptions: [
+        { name: 'Vercel', price: 700 },
+        { name: 'Netlify', price: 600 },
+        { name: 'AWS', price: 800 },
+        { name: 'No hosting', price: 0 },
+      ]
+    },
+    wordpress: {
+      websiteTypes: [
+        { name: 'Professional', price: 1500 },
+        { name: 'E-commerce', price: 2500 },
+        { name: 'Real-estate', price: 2000 },
+        { name: 'No need website', price: 0 },
+      ],
+      hostingOptions: [
+        { name: 'Bluehost', price: 400 },
+        { name: 'HostGator', price: 350 },
+        { name: 'AWS', price: 800 },
+        { name: 'No hosting', price: 0 },
+      ]
+    }
   };
 
-  return (
-    <section className="pricing-calculator-area bg-dark">
-      <div className="container">
-        <div className="row">
-          <div className="col-xl-12 col-lg-12">
-            <div className="section-title section-white-title wow fadeInUp delay-0-2s">
-              <h2>Website Development Services</h2>
-            </div>
+  const currentPricing = pricingData[platform];
+const calculateTotal = () => {
+  const websitePrice = currentPricing.websiteTypes.find(type => type.name === selectedType)?.price || 0;
+  const hostingPrice = currentPricing.hostingOptions.find(option => option.name === selectedHosting)?.price || 0;
+  const threeDPrice = include3D ? 1000 : 0;
+  return websitePrice + hostingPrice + threeDPrice;
+};
+
+return (
+  <section className="pricing-calculator-area bg-dark">
+    <div className="container">
+      <div className="row">
+        <div className="col-xl-12 col-lg-12">
+          <div className="section-title section-white-title wow fadeInUp delay-0-2s">
+            <h2>Website Development Services</h2>
           </div>
         </div>
+      </div>
 
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="calculator-content wow fadeInUp delay-0-4s">
-              <div className="service-selection">
-                <div className="mb-4">
-                  <h3 className="text-white mb-4">Website Type</h3>
-                  {websiteTypes.map((type) => (
-                    <div key={type.name} className="radio-item">
+      <div className="row mb-4">
+        <div className="col-lg-12">
+          <div className="d-flex justify-content-center gap-4">
+            <button
+              className={`btn ${platform === 'nextjs' ? 'btn-warning' : 'btn-outline-warning'} d-flex align-items-center gap-2`}
+              onClick={() => setPlatform('nextjs')}
+            >
+              <Image src="/images/hero-partner-icons/nextjs.svg" alt="Next.js" width={24} height={24} />
+              Next.js
+            </button>
+            <button
+              className={`btn ${platform === 'wordpress' ? 'btn-warning' : 'btn-outline-warning'} d-flex align-items-center gap-2`}
+              onClick={() => setPlatform('wordpress')}
+            >
+              <Image src="/images/hero-partner-icons/wordpress.svg" alt="WordPress" width={24} height={24} />
+              WordPress
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-lg-12">
+          <div className="calculator-content wow fadeInUp delay-0-4s">
+            <div className="service-selection">
+              <div className="mb-4">
+                <h3 className="text-white mb-4">Website Type</h3>
+                {currentPricing.websiteTypes.map((type: WebsiteType) => (
+                  <div key={type.name} className="radio-item">
                       <input
                         type="radio"
                         id={type.name}
@@ -74,7 +120,7 @@ export default function PricingCalculator() {
 
                 <div className="mb-4">
                   <h3 className="text-white mb-4">Hosting/Deployment</h3>
-                  {hostingOptions.map((option) => (
+                  {currentPricing.hostingOptions.map((option: HostingOption) => (
                     <div key={option.name} className="radio-item">
                       <input
                         type="radio"
@@ -126,7 +172,7 @@ export default function PricingCalculator() {
       <style jsx>{`
         .pricing-calculator-area {
           padding: 100px 0;
-          background-color: #1a1f25;
+          background-color: #0F0F0F !important;
         }
         .calculator-content {
           background-color: #242931;
@@ -150,7 +196,7 @@ export default function PricingCalculator() {
         }
         .custom-radio:checked + label, .custom-checkbox:checked + label {
           background-color: #2c3340;
-          border: 1px solid #00ff9d;
+          border: 1px solid rgb(241, 226, 18);
         }
         .bg-darker {
           background-color: #1a1f25;
