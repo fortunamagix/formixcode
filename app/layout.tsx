@@ -15,8 +15,8 @@ import SectionScroll from "@/components/Shared/SectionScroll";
 
 
 export const metadata: Metadata = {
-  title: "formixcode web development",
-  description: "turn your ideas to business with AWS",
+  title: "Formixcode Web Development",
+  description: "Turn your ideas to business with AWS",
 };
 
 export default function RootLayout({
