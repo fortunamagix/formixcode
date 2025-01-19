@@ -157,7 +157,7 @@ return (
 
               <div className="total-cost bg-darker p-4 rounded">
                 <div className="d-flex justify-content-between align-items-center">
-                  <h3 className="text-white mb-0">Total Cost</h3>
+                  <h3 className="text-white mb-0">Start from</h3>
                   <div className="total-amount">
                     <span className="text-success h2">${calculateTotal().toLocaleString()}</span>
                   </div>
