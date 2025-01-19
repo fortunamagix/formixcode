@@ -16,8 +16,8 @@ export default function RecentWork() {
             <h2>Customize templates</h2>
             <h3>OR</h3>
             <h4>Any templates you like </h4>
-            <br />
-            <p>I provide tailored solutions,<br /> whether you need WordPress for ease of use or <br />cutting-edge frameworks like Next.js for performance and scalability.</p>
+            {/* <br />
+            <p>I provide tailored solutions,<br /> whether you need WordPress for ease of use or <br />cutting-edge frameworks like Next.js for performance and scalability.</p> */}
           </div>
         </div>
       </div>
