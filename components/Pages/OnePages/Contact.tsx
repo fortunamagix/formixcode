@@ -20,8 +20,8 @@ export default function Contact() {
                     <div className="contact-content-part wow fadeInUp delay-0-2s">
                         <Image className='contactimg' src={me} alt="" />
                         <p> Are you ready?</p>
-                        <h2> Elevate Your Brand experience to the next level</h2>
-                        <p>Hi, I’m Walker, a passionate UX Designer dedicated to creating user-friendly digital experiences.</p>
+                        <h2>ELEVATE YOUR ONLINE PRESENCE TO THE NEXT LEVEL</h2>
+                        <p>Hi, I'm a dedicated professional helping businesses thrive with stunning websites, seamless hosting, and reliable maintenance services. Let's create a digital experience that stands out.</p>
                         {/* <!-- START CONTACT SINGLEDESIGN AREA --> */}
                         <div className="single-contact wow fadeInUp" data-wow-delay=".6s">
                             <div className="about-social">

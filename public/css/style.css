@@ -3859,14 +3859,14 @@ ul.blog_pagination li a:hover {
 }
 
 .gradient-email {
-  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  background: linear-gradient(90deg, #ff7e5f, #f28b3c);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   text-fill-color: transparent;
-  font-size: 3.6rem; /* 3 times bigger */
+  font-size: 3rem; /* 3 times bigger */
   word-wrap: break-word; /* Ensure long text wraps */
   text-align: center;
   display: inline-block;
