@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/public/images/logo.png";
+import Logo from "@/public/images/webp_formixcode.webp";
 import React, { useEffect, useState } from "react";
 import { gsap } from "gsap";
 import NavItem from "./NavItem";

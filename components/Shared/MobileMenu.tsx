@@ -2,7 +2,7 @@
 import { List, X } from "@phosphor-icons/react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import Logo from "@/public/images/logo.png";
+import Logo from "@/public/images/webp_formixcode.webp";
 import Image from "next/image";
 
 export default function MobileMenu() {
