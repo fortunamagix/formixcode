@@ -27,10 +27,12 @@ export default function Stories() {
                                 <Link href="#">Soon</Link>
                             </div>
                         </div>
-                        <div className="blog-post-caption">
+                        <div className="blog-post-caption ">
                             {/* <h3>Posted on Aug 28</h3> */}
-                            <h2><Link className="link-decoration" href="#">Real Estate Listing</Link></h2>
-                            <Link className="theme-btn" href="#">SOON! <i className="ri-arrow-right-line"></i></Link>
+                            <h2><Link className="link-decoration d-flex justify-content-center d-md-block" href="#">Real Estate Listing</Link></h2>
+                            <div className="d-flex justify-content-center d-md-block">
+                                <Link className="theme-btn" href="#">SOON! <i className="ri-arrow-right-line"></i></Link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -44,11 +46,19 @@ export default function Stories() {
                                 <Link href="#">Soon</Link>
                             </div>
                         </div>
-                        <div className="blog-post-caption">
-                            {/* <h3>Posted on Aug 28</h3> */}
+                        {/* <div className="blog-post-caption">
+                            <h3>Posted on Aug 28</h3>
                             <h2><Link className="link-decoration" href="#">E-COMMERCE</Link></h2>
                             <Link className="theme-btn" href="#">SOON!<i className="ri-arrow-right-line"></i></Link>
-                        </div>
+                        </div>  */}
+                        <div className="blog-post-caption">
+    {/* <h3>Posted on Aug 28</h3> */}
+    <h2><Link className="link-decoration d-flex justify-content-center d-md-block" href="#">E-COMMERCE</Link></h2>
+    <div className="d-flex justify-content-center d-md-block">
+        <Link className="theme-btn" href="#">SOON!<i className="ri-arrow-right-line"></i></Link>
+    </div>
+</div>
+                       
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-4">
@@ -58,13 +68,16 @@ export default function Stories() {
                                 <Image className='bimages' src={blog3} alt="" />
                             </Link>
                             <div className="blog-post-category">
+                                
                                 <Link href="#">Soon</Link>
                             </div>
                         </div>
                         <div className="blog-post-caption">
                             {/* <h3>Posted on Aug 28</h3> */}
-                            <h2><Link className="link-decoration" href="#">MORE!</Link></h2>
-                            <Link className="theme-btn" href="#">SOON!<i className="ri-arrow-right-line"></i></Link>
+                            <h2><Link className="link-decoration d-flex justify-content-center d-md-block" href="#">MORE!</Link></h2>
+                            <div className="d-flex justify-content-center d-md-block">
+                                <Link className="theme-btn" href="#">SOON!<i className="ri-arrow-right-line"></i></Link>
+                            </div>
                         </div>
                     </div>
                 </div>
