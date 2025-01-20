@@ -1117,6 +1117,12 @@ Version      : 1.0
 }
 
 @media only screen and (max-width: 991px) {
+  .main-menu .navbar-collapse li ul li ul {
+    left: auto;
+  }
+}
+
+@media only screen and (max-width: 991px) {
   .main-menu .navbar-header {
     display: -webkit-box;
     display: -ms-flexbox;
