@@ -26,8 +26,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <main>
+      <body style={{ overflowX: 'hidden', width: '100%', position: 'relative' }}>
+        <main style={{ overflowX: 'hidden', width: '100%', position: 'relative' }}>
           <Preloader />
           <MagicCursor />
           <SmoothScroll />

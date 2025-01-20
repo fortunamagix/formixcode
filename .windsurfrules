@@ -1,0 +1,26 @@
+# Memory Management Rules for 32GB RAM System
+
+# Exclude patterns (keep these as they're good practice regardless of RAM)
+ignore_patterns:
+  - .next/**
+  - node_modules/**
+  - .git/**
+  - *.log
+
+# Memory cleanup triggers (relaxed for high RAM)
+cleanup_on:
+  - file_count: 25     # More files can be open
+  - idle_time: 60      # Longer idle time before cleanup
+  - memory_limit: 8GB  # Higher memory limit given your 32GB RAM
+
+# Context management (expanded)
+context:
+  max_file_size: 20MB  # Can handle larger files
+  max_history: 200     # Keep more history
+  refresh_interval: 120 # Less frequent refreshes needed
+
+# Performance optimization
+optimize:
+  lazy_loading: false  # Can load more aggressively with high RAM
+  cache_limit: 4GB     # Larger cache size
+  parallel_ops: 8      # More parallel operations
