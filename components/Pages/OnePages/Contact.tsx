@@ -17,11 +17,11 @@ export default function Contact() {
             </div>
             <div className="row">
                 <div className="col-lg-6">
-                    <div className="contact-content-part wow fadeInUp delay-0-2s">
-                        <Image className='contactimg' src={me} alt="" />
-                        <p> Are you ready?</p>
-                        <h2>ELEVATE YOUR ONLINE PRESENCE TO THE NEXT LEVEL</h2>
-                        <p>Hi, I'm a dedicated professional helping businesses thrive with stunning websites, seamless hosting, and reliable maintenance services. Let's create a digital experience that stands out.</p>
+                    <div className="contact-content-part wow fadeInUp delay-0-2s text-center px-4 md:px-6">
+                        <Image className='contactimg mx-auto' src={me} alt="" />
+                        <p className="text-center mb-3"> Are you ready?</p>
+                        <h2 className="text-center text-2xl md:text-3xl font-bold mb-4">ELEVATE YOUR ONLINE PRESENCE TO THE NEXT LEVEL</h2>
+                        <p className="text-center mb-6">Hi, I'm a dedicated professional helping businesses thrive with stunning websites, seamless hosting, and reliable maintenance services. Let's create a digital experience that stands out.</p>
                         {/* <!-- START CONTACT SINGLEDESIGN AREA --> */}
                         <div className="single-contact wow fadeInUp" data-wow-delay=".6s">
                             <div className="about-social">
@@ -76,9 +76,11 @@ export default function Contact() {
                                 </div>
                                 <div className="col-md-12">
                                     <div className="form-group mb-0">
-                                        <button type="submit" className="theme-btn">
-                                            Send Me Message <i className="ri-mail-line"></i>
-                                        </button>
+                                        <div className="d-flex justify-content-center d-md-block">
+                                            <button type="submit" className="theme-btn">
+                                                Send Me Message <i className="ri-mail-line"></i>
+                                            </button>
+                                        </div>
                                         <div id="msgSubmit" className="hidden"></div>
                                     </div>
                                 </div>
