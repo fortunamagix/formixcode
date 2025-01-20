@@ -16,12 +16,25 @@ export default function AboutMe() {
         </div>
         <div className="row">
           {/* <!-- START ABOUT TEXT DESIGN AREA --> */}
-          <div className="col-lg-4 col-sm-12 about-image">
-            <Image className="aboutimages" src={me} alt="" />
+          <div className="col-lg-4 col-sm-12 about-image" style={{ 
+            display: 'flex', 
+            justifyContent: 'center', 
+            alignItems: 'center',
+            padding: '0 15px',
+            marginBottom: '30px'
+          }}>
+            <div style={{ width: '100%', maxWidth: '400px', margin: '0 auto' }}>
+              <Image 
+                className="aboutimages img-fluid" 
+                src={me} 
+                alt="Why Choose Us"
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+              />
+            </div>
           </div>
           <div className="col-lg-8 col-sm-12">
             <div className="about-content-part wow fadeInUp delay-0-2s">
-              <p>
+              <p className="text-center">
               1. Expertise You Can Trust
 With years of experience in web development and design, we deliver cutting-edge, customized solutions tailored to your business needs.
 <br />
