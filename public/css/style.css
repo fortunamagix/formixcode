@@ -1577,7 +1577,7 @@ html {
 .hero-content h2 {
   position: relative;
   font-weight: 500;
-  font-size: 130px;
+  font-size: 100px;
   text-transform: uppercase;
   text-align: center;
   color: var(--text-color);

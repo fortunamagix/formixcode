@@ -8,11 +8,13 @@ export default function Footer() {
           <div className="col-lg-12">
             <div className="footer-top">
               <p>Make your project live and profitable</p>
-              <h2>
-                <Link href="mailto:contact@formixcode.com">
-                  <span className="gradient-email">contact@formixcode.com</span>
-                </Link>
-              </h2>
+              
+                <div className="text-center">
+                  <Link href="mailto:contact@formixcode.com">
+                    <span className="gradient-email">contact@formixcode.com</span>
+                  </Link>
+                </div>
+              
             </div>
           </div>
         </div>

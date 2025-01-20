@@ -1,0 +1,13 @@
+/* Font size scale */
+.fs-4 { font-size: 1.5rem; }
+.fs-5 { font-size: 2rem; }
+.fs-7 { font-size: 4rem; }
+
+/* Responsive utilities */
+@media (min-width: 768px) {
+  .fs-md-5 { font-size: 2rem; }
+}
+
+@media (min-width: 1024px) {
+  .fs-lg-7 { font-size: 2.5rem; }
+}
