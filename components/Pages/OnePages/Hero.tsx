@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import me from "@/public/images/about/me.jpg";
+// import me from "@/public/images/about/me.jpg";
 import React, { useEffect } from "react";
 import styles from "@/styles/OrangeGradient.module.css";
 import partner1 from "@/public/images/hero-partner-icons/aws-svgrepo-com.svg";
@@ -11,8 +11,7 @@ import partner5 from "@/public/images/hero-partner-icons/spline.svg";
 import partner6 from "@/public/images/hero-partner-icons/vercel-2.svg";
 import partner7 from "@/public/images/hero-partner-icons/wordpress.svg";
 import Link from "next/link";
-import "./Hero.css";
-// import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+
 
 export default function Hero() {
   useEffect(() => {
@@ -51,7 +50,7 @@ export default function Hero() {
           <div className="col-lg-12">
             {/* <!-- START HERO DESIGN AREA --> */}
             <div className="hero-content wow fadeInUp text-center delay-0-2s">
-              <Image className="profile-img" src={me} alt="Profile" />
+              {/* <Image className="profile-img" src={me} alt="Profile" /> */}
               <h2>
               Turn Your <span className="ideas-gradient-text">Ideas</span><br /> to Business <br /><span className={styles.awsOrangeGradient}>with AWS</span>
               </h2>

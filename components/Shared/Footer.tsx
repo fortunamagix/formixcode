@@ -27,7 +27,7 @@ export default function Footer() {
               </Link>
             </p> */}
           </div>
-          <div className="col-lg-6 col-sm-6">
+          <div className="text center">
             <p className="copy-right-text">&copy; Copyright 2025</p>
           </div>
         </div>

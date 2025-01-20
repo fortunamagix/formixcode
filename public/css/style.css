@@ -1557,7 +1557,7 @@ html {
 }
 
 .main-hero-image-area {
-  background: url(/images/hero-image.jpg) no-repeat;
+  /* background: url(/images/hero-image.jpg) no-repeat; */
   background-size: cover;
   z-index: 1;
   position: relative;
@@ -2857,8 +2857,8 @@ p.copy-right-text {
   color: var(--main-color);
   font-size: 12px;
   line-height: 20px;
-  -moz-text-align-last: right;
-  text-align-last: right;
+  -moz-text-align-last: center;
+  text-align-last: center;
 }
 
 .footer-top h2 {
