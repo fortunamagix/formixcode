@@ -4,7 +4,7 @@ import blog2 from '@/public/images/blog/webp_Coming_soon.webp'
 import blog3 from '@/public/images/blog/webp_Coming_soon.webp'
 import blog1 from '@/public/images/blog/webp_Coming_soon.webp'
 
-export default function Stories() {
+export default function Demo() {
   return (
     <section id="blog" className="blog-area">
         <div className="container">
@@ -47,13 +47,12 @@ export default function Stories() {
                             </div>
                         </div>
                         <div className="blog-post-caption">
-    {/* <h3>Posted on Aug 28</h3> */}
-    <h2><Link className="link-decoration d-flex justify-content-center d-md-block" href="#">E-COMMERCE</Link></h2>
-    <div className="d-flex justify-content-center d-md-block">
-        <Link className="theme-btn" href="#">SOON!<i className="ri-arrow-right-line"></i></Link>
-    </div>
-</div>
-                       
+                            {/* <h3>Posted on Aug 28</h3> */}
+                            <h2><Link className="link-decoration d-flex justify-content-center d-md-block" href="#">E-COMMERCE</Link></h2>
+                            <div className="d-flex justify-content-center d-md-block">
+                                <Link className="theme-btn" href="#">SOON!<i className="ri-arrow-right-line"></i></Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-4">
@@ -63,7 +62,6 @@ export default function Stories() {
                                 <Image className='bimages' src={blog3} alt="" />
                             </Link>
                             <div className="blog-post-category">
-                                
                                 <Link href="#">Soon</Link>
                             </div>
                         </div>
