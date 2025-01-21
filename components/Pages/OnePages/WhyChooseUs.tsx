@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 import Image from "next/image";
 import me from "@/public/images/about/webp_why-choose-us.webp";
 
-export default function AboutMe() {
+export default function WhyChooseUs() {
   return (
     <section id="about" className="about-area">
       <div className="container">
@@ -34,7 +34,7 @@ export default function AboutMe() {
           </div>
           <div className="col-lg-8 col-sm-12">
             <div className="about-content-part wow fadeInUp delay-0-2s">
-              <p className="text-center">
+              <p className="text-sm-center text-lg-start">
               1. Expertise You Can Trust
 With years of experience in web development and design, we deliver cutting-edge, customized solutions tailored to your business needs.
 <br />

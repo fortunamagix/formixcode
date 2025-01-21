@@ -7,7 +7,7 @@ import work4 from "@/public/images/projects/webp_recent-04-modave.webp";
 import work5 from "@/public/images/projects/webp_recent-05-almaris.webp";
 import work6 from "@/public/images/projects/webp_recent-06-homez.webp";
 
-export default function RecentWork() {
+export default function CustomizeTemplate() {
   return (
     <div className="projects-area" id="projects">
       <div className="row">

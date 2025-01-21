@@ -1,7 +1,7 @@
 import AboutTwo from "@/components/Pages/HomeTwo/AboutTwo";
 import ContactTwo from "@/components/Pages/HomeTwo/ContactTwo";
 import HeroTwo from "@/components/Pages/HomeTwo/HeroTwo";
-import RecentWork from "@/components/Pages/OnePages/RecentWork";
+import CustomizeTemplate from "@/components/Pages/OnePages/CustomizeTemplate";
 import Services from "@/components/Pages/OnePages/Services";
 import Stories from "@/components/Pages/OnePages/Stories";
 import Testimonials from "@/components/Pages/OnePages/Testimonials";
@@ -15,7 +15,7 @@ export default function page() {
       <MobileMenuTwo />
       <HeroTwo />
       <Services />
-      <RecentWork />
+      <CustomizeTemplate />
       <Testimonials />
       <Stories />
       <AboutTwo />
