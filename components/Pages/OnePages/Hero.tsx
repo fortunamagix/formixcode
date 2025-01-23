@@ -11,7 +11,7 @@ import partner5 from "@/public/images/hero-partner-icons/spline.svg";
 import partner6 from "@/public/images/hero-partner-icons/vercel-2.svg";
 import partner7 from "@/public/images/hero-partner-icons/wordpress.svg";
 import Link from "next/link";
-
+import Spline from "@splinetool/react-spline";
 
 export default function Hero() {
   useEffect(() => {
@@ -23,13 +23,11 @@ export default function Hero() {
   const addAnimation = () => {
     const scrollers = document.querySelectorAll<HTMLElement>(".scroller");
     scrollers.forEach((scroller) => {
-
       scroller.setAttribute("data-animated", "true");
 
       const scrollerInner =
         scroller.querySelector<HTMLElement>(".scroller__inner");
       if (scrollerInner) {
-
         const scrollerContent = Array.from(
           scrollerInner.children
         ) as HTMLElement[];
@@ -52,29 +50,32 @@ export default function Hero() {
             <div className="hero-content wow fadeInUp text-center delay-0-2s">
               {/* <Image className="profile-img" src={me} alt="Profile" /> */}
               <h2>
-              Turn Your <span className="ideas-gradient-text">Ideas</span><br /> to Business <br /><span className={styles.awsOrangeGradient}>with AWS</span>
+                Turn Your <span className="ideas-gradient-text">Ideas</span>
+                <br /> to Business <br />
+                <span className={styles.awsOrangeGradient}>with AWS</span>
               </h2>
-{/* still working on the quote */}
+              {/* still working on the quote */}
 
               <div className="flex inline-block text-center mt-4">
-                <Image src="/images/hero-quote-open.svg"
-                  alt="Open quote" 
-                  width={10} 
+                <Image
+                  src="/images/hero-quote-open.svg"
+                  alt="Open quote"
+                  width={10}
                   height={10}
-
-
                 />
                 <p className="text-gray-800 mt-4">
-                  Leave the coding and deployment to us—focus on growing your business.
+                  Leave the coding and deployment to us—focus on growing your
+                  business.
                 </p>
-                <Image src="/images/hero-quote-close.svg"
-                  alt="Close quote" 
-                  width={10} 
+                <Image
+                  src="/images/hero-quote-close.svg"
+                  alt="Close quote"
+                  width={10}
                   height={10}
-                  className="" 
+                  className=""
                 />
               </div>
-{/* end of the quote */}
+              {/* end of the quote */}
               <div className="center-button-container">
                 <Link className="theme-btn" href="#contact">
                   <div id="container-stars">
@@ -84,10 +85,13 @@ export default function Hero() {
                     <div className="circle"></div>
                     <div className="circle"></div>
                   </div>
-                  <div className="get-in-touch-btn">  
-                  Get In touch
-                  </div>
+                  <div className="get-in-touch-btn">Get In touch</div>
                 </Link>
+              </div>
+              <div className="mt-2">
+                <div style={{ height: "30vh" }}>
+                  <Spline scene="https://prod.spline.design/kM2TZb0O3LyaLS6Q/scene.splinecode" />
+                </div>
               </div>
             </div>
             {/* <!-- / END HERO DESIGN AREA --> */}
