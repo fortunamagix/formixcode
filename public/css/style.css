@@ -45,7 +45,12 @@ Version      : 1.0
   --grey-bg: #e6eaee;
   --text-font: "Inter", sans-serif;
   --title-font: "Inter", sans-serif;
-  --ideas-gradient: linear-gradient(90deg, #00FF00 0%, #00CC00 50%, #009900 100%);
+  --ideas-gradient: linear-gradient(
+    90deg,
+    #00ff00 0%,
+    #00cc00 50%,
+    #009900 100%
+  );
 }
 
 .ideas-gradient-text {
@@ -72,7 +77,8 @@ Version      : 1.0
   box-shadow: none;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -1549,7 +1555,7 @@ html {
 * ----------------------------------------------------------------------------------------
 */
 .main-hero-area {
-  padding-top: 300px;
+  padding-top: 200px;
   padding-bottom: 100px;
   background: url(/images/custom/hero-bg.jpg) no-repeat;
   background-position: top center;
