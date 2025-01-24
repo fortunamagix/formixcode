@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import Image from "next/image";
 import me from "@/public/images/about/webp_why-choose-us.webp";
 import Link from "next/link";
+// import styles from "./Contact.module.css";
 import {
   EnvelopeSimple,
   FacebookLogo,
@@ -49,6 +50,14 @@ export default function Contact() {
           <div className="col-xl-12 col-lg-12">
             <div className="section-title section-black-title wow fadeInUp delay-0-2s">
               <h2>Contact Me</h2>
+              <div className="text-center mt-2">
+                <Link
+                  href="/contact-test"
+                  className="text-blue-500 hover:text-blue-700"
+                >
+                  Try alternate contact form →
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -97,7 +106,9 @@ export default function Contact() {
           </div>
           {/* <!-- START CONTACT FORM DESIGN AREA --> */}
           <div className="col-lg-6">
-            <div className="contact-form contact-form-area wow fadeInUp delay-0-4s">
+            <div
+              className={`contact-form contact-form-area wow fadeInUp delay-0-4s ${styles.contact_form_container}`}
+            >
               <iframe
                 data-tally-src="https://tally.so/embed/3Ev9vl?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
                 loading="lazy"
@@ -110,6 +121,9 @@ export default function Contact() {
                 style={{
                   background: "transparent",
                   border: "none",
+                  position: "relative",
+                  zIndex: 50,
+                  pointerEvents: "auto",
                 }}
               ></iframe>
             </div>

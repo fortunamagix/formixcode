@@ -1,0 +1,20 @@
+/* Ensure form container has proper stacking context and interaction */
+.form-container {
+  position: relative;
+  z-index: 100;
+  isolation: isolate;
+  pointer-events: auto;
+}
+
+/* Prevent any potential interference from parent elements */
+.form-container iframe {
+  pointer-events: auto !important;
+  position: relative;
+  z-index: 100;
+}
+
+/* Reset any potential overlay elements */
+.form-container::before,
+.form-container::after {
+  display: none !important;
+}

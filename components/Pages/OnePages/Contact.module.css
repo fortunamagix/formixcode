@@ -1,0 +1,20 @@
+/* Ensure form container has proper stacking context and interaction */
+.contact_form_container {
+  position: relative !important;
+  z-index: 100 !important;
+  isolation: isolate !important;
+  pointer-events: auto !important;
+}
+
+/* Prevent any potential interference from parent elements */
+.contact_form_container iframe {
+  pointer-events: auto !important;
+  position: relative !important;
+  z-index: 100 !important;
+}
+
+/* Reset any potential overlay elements */
+.contact_form_container::before,
+.contact_form_container::after {
+  display: none !important;
+}
