@@ -6,13 +6,10 @@ import "@/public/css/blog.css";
 import "@/public/css/spacing.css";
 import Footer from "@/components/Shared/Footer";
 import Preloader from "@/components/Shared/Preloader";
-import MagicCursor from "@/components/Shared/MagicCursor";
 import ScrollTopUp from "@/components/Shared/ScrollTopUp";
 import "@/../react-modal-video/scss/modal-video.scss";
 import SmoothScroll from "@/components/Shared/SmoothScroll";
 import SectionScroll from "@/components/Shared/SectionScroll";
-
-
 
 export const metadata: Metadata = {
   title: "Formixcode Web Development",
@@ -26,10 +23,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body style={{ overflowX: 'hidden', width: '100%', position: 'relative' }}>
-        <main style={{ overflowX: 'hidden', width: '100%', position: 'relative' }}>
+      <body
+        style={{ overflowX: "hidden", width: "100%", position: "relative" }}
+      >
+        <main
+          style={{ overflowX: "hidden", width: "100%", position: "relative" }}
+        >
           <Preloader />
-          <MagicCursor />
           <SmoothScroll />
           <ScrollTopUp />
           <SectionScroll />

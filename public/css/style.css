@@ -3120,64 +3120,6 @@ body.loaded {
   bottom: 20px;
 }
 
-/* ===== # Magic Cursor ===== */
-#magic-cursor {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 30px;
-  height: 30px;
-  pointer-events: none;
-  z-index: 10000;
-  -webkit-transition: opacity 0.2s ease-in-out 0.5s;
-  transition: opacity 0.2s ease-in-out 0.5s;
-}
-
-#ball {
-  position: fixed;
-  width: 40px;
-  height: 40px;
-  border: 2px solid #999999;
-  border-radius: 50%;
-  pointer-events: none;
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  box-sizing: border-box;
-  /* -webkit-transform: scale(0.5);
-    transform: scale(0.5); */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  /* -webkit-transition: 0.2s;
-    transition: 0.2s; */
-  margin-left: -20px;
-  margin-top: -20px;
-}
-
-.magic-cursor.cursor-hover {
-  margin-left: -40px;
-  margin-top: -40px;
-  width: 80px;
-  height: 80px;
-  background-color: #cc0000;
-  opacity: 0.3;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-}
-
-#ball.hovered {
-  -webkit-transition: opacity 0.3s;
-  transition: opacity 0.3s;
-  opacity: 0 !important;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-}
-
 /*
 * ----------------------------------------------------------------------------------------
 * 16.BLOG CSS STYLE
