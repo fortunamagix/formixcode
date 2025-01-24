@@ -7,8 +7,8 @@ export default function NavItem() {
       <nav id="mobile-menu">
         <ul className="onepage">
           <li>
-            <Link 
-              href="/" 
+            <Link
+              href="/"
               className=""
               onClick={(e) => {
                 e.preventDefault();
@@ -17,8 +17,8 @@ export default function NavItem() {
                   scrollTo: { y: 0, autoKill: false },
                   ease: "power2.inOut",
                   onComplete: () => {
-                    window.history.pushState({}, '', '/');
-                  }
+                    window.history.pushState({}, "", "/");
+                  },
                 });
               }}
             >
@@ -37,7 +37,7 @@ export default function NavItem() {
           </li>
           <li>
             <Link href="#blog" className="linkstyle">
-              Blog
+              demo
             </Link>
           </li>
           <li>
