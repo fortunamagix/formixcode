@@ -51,8 +51,6 @@ export default function ContactTest() {
             width="100%"
             height="620"
             frameBorder="0"
-            marginHeight={0}
-            marginWidth={0}
             title="Contact Form Test"
             style={{
               background: "transparent",

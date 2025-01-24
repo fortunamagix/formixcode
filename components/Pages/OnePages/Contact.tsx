@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Image from "next/image";
 import me from "@/public/images/about/webp_why-choose-us.webp";
 import Link from "next/link";
-// import styles from "./Contact.module.css";
+import styles from "./Contact.module.css";
 import {
   EnvelopeSimple,
   FacebookLogo,
@@ -79,22 +79,22 @@ export default function Contact() {
                 <div className="about-social">
                   <ul>
                     <li>
-                      <Link className="socaillink" href="#">
+                      <Link className="sociallink" href="#">
                         <FacebookLogo />
                       </Link>
                     </li>
                     <li>
-                      <Link className="socaillink" href="#">
+                      <Link className="sociallink" href="#">
                         <XLogo />
                       </Link>
                     </li>
                     <li>
-                      <Link className="socaillink" href="#">
+                      <Link className="sociallink" href="#">
                         <LinkedinLogo />
                       </Link>
                     </li>
                     <li>
-                      <Link className="socaillink" href="#">
+                      <Link className="sociallink" href="#">
                         <GithubLogo />
                       </Link>
                     </li>
@@ -115,8 +115,6 @@ export default function Contact() {
                 width="100%"
                 height="620"
                 frameBorder="0"
-                marginHeight={0}
-                marginWidth={0}
                 title="formixcode-contact"
                 style={{
                   background: "transparent",
