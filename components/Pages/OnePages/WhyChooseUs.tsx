@@ -6,7 +6,7 @@ import me from "@/public/images/about/webp_why-choose-us.webp";
 export default function WhyChooseUs() {
   return (
     <section id="about" className="about-area">
-      <div className="container">
+      <div className="container" style={{ maxWidth: '1320px', margin: '0 auto' }}>
         <div className="row">
           <div className="col-xl-12 col-lg-12">
             <div className="section-title section-white-title wow fadeInUp delay-0-2s">

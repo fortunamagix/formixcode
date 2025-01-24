@@ -64,7 +64,7 @@ const calculateTotal = () => {
 
 return (
   <section className="pricing-calculator-area bg-dark">
-    <div className="container">
+    <div className="container" style={{ maxWidth: '1320px', margin: '0 auto' }}>
       <div className="row">
         <div className="col-xl-12 col-lg-12">
           <div className="section-title section-white-title wow fadeInUp delay-0-2s">

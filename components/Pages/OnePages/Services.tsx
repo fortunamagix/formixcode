@@ -4,7 +4,7 @@ import { ArrowUpRight } from "@phosphor-icons/react";
 export default function Services() {
   return (
     <section id="services" className="services-area">
-      <div className="container">
+      <div className="container" style={{ maxWidth: '1320px', margin: '0 auto' }}>
         <div className="row">
           <div className="col-xl-12 col-lg-12">
             <div className="section-title section-black-title wow fadeInUp delay-0-2s">

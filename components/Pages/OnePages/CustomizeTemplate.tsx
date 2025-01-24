@@ -21,7 +21,7 @@ export default function CustomizeTemplate() {
           </div>
         </div>
       </div>
-      <div className="container-fluid">
+      <div className="container-fluid" style={{ maxWidth: '1320px', margin: '0 auto' }}>
         <div className="row g-4 portfolio-grid">
           {/* <!-- START SINGLE PORTFOLIO DESIGN AREA --> */}
           <div className="col-md-6 col-xl-6 portfolio-item category-1">

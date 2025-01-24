@@ -7,7 +7,7 @@ import blog1 from '@/public/images/blog/webp_Coming_soon.webp'
 export default function Demo() {
   return (
     <section id="blog" className="blog-area">
-        <div className="container">
+        <div className="container" style={{ maxWidth: '1320px', margin: '0 auto' }}>
             <div className="row">
                 <div className="col-xl-12 col-lg-12">
                     <div className="section-title section-white-title wow fadeInUp delay-0-2s">
