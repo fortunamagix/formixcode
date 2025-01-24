@@ -50,14 +50,6 @@ export default function Contact() {
           <div className="col-xl-12 col-lg-12">
             <div className="section-title section-black-title wow fadeInUp delay-0-2s">
               <h2>Contact Me</h2>
-              <div className="text-center mt-2">
-                <Link
-                  href="/contact-test"
-                  className="text-blue-500 hover:text-blue-700"
-                >
-                  Try alternate contact form →
-                </Link>
-              </div>
             </div>
           </div>
         </div>
