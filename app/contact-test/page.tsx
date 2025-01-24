@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import Link from "next/link";
-import "./contact-test.css";
+import "./page.css";
 
 export default function ContactTest() {
   useEffect(() => {
