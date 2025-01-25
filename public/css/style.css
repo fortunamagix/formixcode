@@ -3740,16 +3740,29 @@ ul.blog_pagination li a:hover {
 }
 
 @-webkit-keyframes scroll {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
   to {
-    -webkit-transform: translate(calc(-50% - 0.5rem));
-    transform: translate(calc(-50% - 0.5rem));
+    -webkit-transform: translateX(calc(-50%));
+    transform: translateX(calc(-50%));
   }
 }
 
 @keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
   to {
-    -webkit-transform: translate(calc(-50% - 0.5rem));
-    transform: translate(calc(-50% - 0.5rem));
+    transform: translateX(calc(-50%));
+  }
+}
+
+/* Hide Spline on mobile */
+@media (max-width: 768px) {
+  .spline-container {
+    display: none;
   }
 }
 

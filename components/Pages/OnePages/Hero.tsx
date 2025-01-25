@@ -89,7 +89,7 @@ export default function Hero() {
                 </Link>
               </div>
               <div className="mt-2">
-                <div style={{ height: "30vh" }}>
+                <div className="spline-container" style={{ height: "30vh" }}>
                   <Spline scene="https://prod.spline.design/kM2TZb0O3LyaLS6Q/scene.splinecode" />
                 </div>
               </div>
