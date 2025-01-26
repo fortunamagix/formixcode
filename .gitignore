@@ -40,3 +40,5 @@ yarn-error.log*
 next-env.d.ts
 .aider*
 sync.ffs_db
+secrets.env
+secrets.env
